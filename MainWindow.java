@@ -117,13 +117,13 @@ public class MainWindow extends JFrame{
         g2.setStroke(new BasicStroke(3f));
         // makes a line and draws it to JFrame
         Line2D line = new Line2D.Double(0.336*w, 40, 0.336*w, h-45);
-        g2.draw(line);
+       // g2.draw(line);
         Line2D line2 = new Line2D.Double(0.663*w, 40, 0.663*w, h-45);
-        g2.draw(line2);
+       // g2.draw(line2);
         Line2D line3 = new Line2D.Double(2, 0.3488*h, w-2, 0.3488*h);
-        g2.draw(line3);
+       // g2.draw(line3);
         Line2D line4 = new Line2D.Double(2, 0.6444*h, w-2, 0.6444*h);
-        g2.draw(line4);
+       //g2.draw(line4);
     }
 
     /*
